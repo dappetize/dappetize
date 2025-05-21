@@ -1,0 +1,16 @@
+ DownloadNFT  i think it must be authurize be the owner of nft
+ 
+ function _update(
+        address to,
+        uint256 tokenId,
+        address auth
+    )
+        internal
+        override(ERC721Upgradeable, ERC721PausableUpgradeable)
+        whenNotPaused
+        returns (address)
+    {
+        return super._update(to, tokenId, auth);
+    }
+
+

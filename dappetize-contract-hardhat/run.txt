@@ -1,0 +1,64 @@
+run script:
+npx hardhat run ./scripts/deploy_dappetize_token_v1.js --network rinkeby
+npx hardhat verify --network rinkeby <<PROXY_CONTRACT_ADDRESS>>
+
+
+npx hardhat run ./scripts/deploy_dappetize_token_v1.js --network goerli
+npx hardhat verify --network goerli <<PROXY_CONTRACT_ADDRESS>>
+npx hardhat --network ganache test
+npx hardhat run ./scripts/deploy_dappetize_token_v1.js --network ganache
+
+
+
+npx hardhat run ./scripts/deploy_dappetize_token_v1.js --network ganache_local
+
+
+npx hardhat help
+npx hardhat compile
+
+npx hardhat run ./scripts/deploy_dappetize_nft_erc721_v1.js --network ganache_local
+npx hardhat run ./scripts/deploy_dappetize_nft_erc721_v1.js --network goerli
+ <<PROXY_CONTRACT_ADDRESS>>
+
+ 
+///////////////////////////////////////// Mumbai //////////////////////////////////////
+
+
+npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network mumbai
+npx hardhat verify --network mumbai <<PROXY_CONTRACT_ADDRESS>>
+
+npx hardhat run ./scripts/deploy_app_contract.js --network mumbai
+npx hardhat verify --network mumbai <<PROXY_CONTRACT_ADDRESS>>
+
+
+
+///////////////////////////////////////// Mumbai //////////////////////////////////////
+///////////////////////////////////////// Set Trust //////////////////////////////////////
+
+ npx hardhat run ./scripts/set-remote-trust-layerzero.js --network mumbai
+
+
+///////////////////////////////////////// End Set Trust //////////////////////////////////////
+///////////////////////////////////////// Total Command //////////////////////////////////////
+
+npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network sepolia
+npx hardhat run ./scripts/deploy_app_contract.js --network sepolia
+npx hardhat run ./scripts/set-remote-trust-layerzero.js --network sepolia
+
+npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network holesky
+npx hardhat run ./scripts/deploy_app_contract.js --network holesky
+npx hardhat run ./scripts/set-remote-trust-layerzero.js --network holesky
+
+npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network amoy
+npx hardhat run ./scripts/deploy_app_contract.js --network amoy
+npx hardhat run ./scripts/set-remote-trust-layerzero.js --network amoy
+
+
+
+npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network mumbai
+npx hardhat run ./scripts/deploy_app_contract.js --network mumbai
+npx hardhat run ./scripts/set-remote-trust-layerzero.js --network mumbai
+
+
+///////////////////////////////////////// End Total Command //////////////////////////////////////
+

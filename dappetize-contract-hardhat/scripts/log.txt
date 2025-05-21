@@ -1,0 +1,59 @@
+Compiled 1 Solidity file successfully (evm target: paris).
+Deploying contracts with the account: 0x11247F12A02ac4A7DF73eCdB0835DD19e16A4453
+Current Network: goerli
+Deploying AppContractFactory...
+AppContractFactory deployed to: 0x3402B04A7c26f96ABb4b1acE3A45D6dCA1E7584a
+Deploying ContractOptions...
+ContractOptions deployed to: 0xe98cbB0c63EEE46e4Ba28aaBAb9703C3c6476dD2
+Network is: [goerli] Endpoint address: 0xbfD2135BFfbb0B5378b56643c2Df8a87552Bfa23
+Deploying DTLZTransfer...
+DTLZTransfer deployed to: 0x40DBfbec0dd7778BE90e7da00471B3466CD163D7
+Deploying DappetizeToken...
+dappetizeToken deployed to: 0x2294903211764827DbECaf464A2Fb878E0472320
+Deploying DappetizeNFT...
+dappetizeNFT deployed to: 0xA4c516E12AA43978c474133B608a619aE3828459
+Deploying DownloadNFT...
+DownloadNFT deployed to: 0x5051ce5D2f841e06C0655bca9b591d613d89a17b
+
+
+
+
+----------------
+
+C:\Mohammad\Project\Crypto\dapp-store\dappetize-contract-hardhat>npx hardhat run ./scripts/deploy_app_contract.js --network goerli
+Current Network: goerli
+get contract option 0xe98cbB0c63EEE46e4Ba28aaBAb9703C3c6476dD2
+Deploying AppContract...
+Proxy AppContract deployed to: 0xD7dA5298BDBAcD023c26E394D5D325478e1104d4
+
+-----------------------------
+
+
+C:\Mohammad\Project\Crypto\dapp-store\dappetize-contract-hardhat>npx hardhat run ./scripts/deploy_app_contract_factory_contract.js --network mumbai
+Deploying contracts with the account: 0x11247F12A02ac4A7DF73eCdB0835DD19e16A4453
+Current Network: mumbai
+Deploying AppContractFactory...
+AppContractFactory deployed to: 0x3de088DaF8576243c6BD00C17471FFDfE5D67657
+Deploying ContractOptions...
+ContractOptions deployed to: 0x06a2d6F5eCa47B58f040C1dbEBe9226C925Def73
+Network is: [mumbai] Endpoint address: 0xf69186dfBa60DdB133E91E9A4B5673624293d8F8
+Deploying DTLZTransfer...
+DTLZTransfer deployed to: 0xEeEE6fB6864915FDbE65F13e2D631920C22c109F
+Deploying DappetizeToken...
+dappetizeToken deployed to: 0x55891ca02aD471Efae295cD2435C631Ebc552C61
+Deploying DappetizeNFT...
+dappetizeNFT deployed to: 0xa9cA18076Bc7fC7F1d22aFCE3876c8bF2B6303Ef
+Deploying DownloadNFT...
+DownloadNFT deployed to: 0x0FC26D601CA117990cdb2782735F271fD921F454
+
+-----------------------------
+
+C:\Mohammad\Project\Crypto\dapp-store\dappetize-contract-hardhat>npx hardhat run ./scripts/deploy_app_contract.js --network mumbai  
+Current Network: mumbai
+get contract option 0x06a2d6F5eCa47B58f040C1dbEBe9226C925Def73
+Deploying AppContract...
+Proxy AppContract deployed to: 0x68CD49BB3758c1ca7776470D67755C4cf3657742
+-------------------------------
+
+
+
